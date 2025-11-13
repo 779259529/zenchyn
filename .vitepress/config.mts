@@ -30,7 +30,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '介绍', link: '/zenchyn' },
-      { text: '赞助商', link: '/sponsor' },
+      { text: '特别鸣谢', link: '/sponsor' },
       { text: '接口文档', link: 'https://doc.zenchyn.com/' },
       { text: '官方论坛', link: 'https://bbs.zenchyn.com/' }
     ],
