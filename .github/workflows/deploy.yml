@@ -28,6 +28,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: 'notify vercel'
+        uses: 'vercel/repository-dispatch/actions/status@v1'
+        with:
+          name: Vercel - zenchyn1: lint
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -51,10 +55,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
         path: .vitepress/dist
-      - name: 'notify vercel'
-        uses: 'vercel/repository-dispatch/actions/status@v1'
-        with:
-    name: Vercel - zenchyn1: lint
+    
       
 
   # 部署工作
