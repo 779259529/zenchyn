@@ -25,12 +25,14 @@ export default defineConfig({
     logo: '/zenchyn.png',
     outline: {
       level: [2, 3],
-      label: '本页内容'
+      label: '页面导航'
     },
     nav: [
       { text: '首页', link: '/' },
       { text: '介绍', link: '/zenchyn' },
       { text: '赞助商', link: '/sponsor' },
+      { text: '接口文档', link: 'https://doc.zenchyn.com/' },
+      { text: '官方论坛', link: 'https://bbs.zenchyn.com/' }
     ],
     footer: {
       message: '<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">鄂ICP备2022006206号</a>',
