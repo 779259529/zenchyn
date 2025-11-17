@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./chunks/framework.BPT-Rmpj.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mddoc/open-freeplus.md","filePath":"mddoc/open-freeplus.md"}'),r={name:"mddoc/open-freeplus.md"};function a(s,n,p,c,d,m){return o(),t("div")}const _=e(r,[["render",a]]);export{l as __pageData,_ as default};
