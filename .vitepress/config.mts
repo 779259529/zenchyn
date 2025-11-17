@@ -36,7 +36,7 @@ export default defineConfig({
     ],
     footer: {
       message: '<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">鄂ICP备2022006206号</a>',
-      copyright: 'Copyright © 2024-云程'
+      copyright: 'Copyright © 2025-云程'
     },
     // sidebar: [
     //   {
