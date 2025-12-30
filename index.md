@@ -12,11 +12,11 @@ hero:
   actions:
     - theme: brand
       text: 获取源码
-      link: /mddoc/zenchyn
+      link: /zenchyn
       size: big    
-    - theme: brand
-      text: 后端仓库
-      link: https://gitee.com/tyopen/zenchynadmin
+    - theme: alt
+      text: 联系作者
+      link: "https://wps.qq.com/msgrd?v=3&uin=779259529&site=qq&menu=yes"
 
 features:
   - icon: 🎈
