@@ -16,7 +16,7 @@ hero:
       size: big    
     - theme: alt
       text: 联系作者
-      link: "https://wps.qq.com/msgrd?v=3&uin=779259529&site=qq&menu=yes"
+      link: "http://wpa.qq.com/msgrd?v=3&uin=779259529&site=qq&menu=yes"
 
 features:
   - icon: 🎈
