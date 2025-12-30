@@ -20,8 +20,6 @@ description: 感谢每一位支持禅境系统的朋友
 | ---- | ---------- | ---- |
 | 微信 | ![微信赞赏码](/zanzhu.png) | 扫码即可 |
 | 支付宝 | 同上 | 扫码即可 |
-| 爱发电 | [https://afdian.net/a/zenchyn](https://afdian.net/a/zenchyn) | 月度会员、一次性赞助 |
-| GitHub Sponsors | [https://github.com/sponsors/779259529](https://github.com/sponsors/779259529) | 国际用户推荐 |
 
 > 无论金额大小，每一份支持都是对开源事业的鼓励，我们都会铭记于心！
 
@@ -53,4 +51,3 @@ description: 感谢每一位支持禅境系统的朋友
 
 - 邮箱：779259529@qq.com
 - 交流群：见官网底部二维码
-- GitHub Discussion：[https://github.com/779259529/zenchyn/discussions](https://github.com/779259529/zenchyn/discussions)
