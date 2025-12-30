@@ -7,6 +7,12 @@ editLink: true
 
 禅境系统（ZenChyn），原名 FreePlus Max，是开源版本 FreePlus 的授权版。因原名过长，遂更名为“禅境”，开源版名称保持不变。
 
+## 开源下载
+
+禅境系统（后端管理仓库：[https://gitee.com/tyopen/zenchynadmin](https://gitee.com/tyopen/zenchynadmin)；前端 UniApp 仓库：[https://gitee.com/tyopen/zenchynuniapp](https://gitee.com/tyopen/zenchynuniapp)）正式开源啦！欢迎大家点亮 Star 支持项目，使用中遇到问题可在对应仓库提交 Issue 反馈，技术大佬若有优化建议或代码贡献，可通过 Pull Request 参与维护。
+
+> 许可与声明：本项目采用 GPL 开源协议。二开衍生版本需保留原版权信息且强制开源，期待大家携手共建更完善的禅境生态！
+
 ## 禅境系统简介
 
 禅境系统是一款**集软件市场、论坛、工具箱、积分市场等多功能于一体**的综合性平台。系统后端采用 **ThinkPHP** 开发，前端基于 **UNIAPP** 多端框架，**除核心模块外全部开源**，二次开发友好，可玩性极高，稍有开发基础即可轻松定制！

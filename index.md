@@ -11,15 +11,12 @@ hero:
     alt: zenchyn
   actions:
     - theme: brand
-      text: 获取授权
+      text: 获取源码
       link: /mddoc/zenchyn
-      size: big
-    - theme: alt
-      text: 开源版本
-      link: /mddoc/open-freeplus
-    - theme: sponsor
-      text: "联系作者"
-      link: http://wpa.qq.com/msgrd?v=3&uin=2445408174&site=qq&menu=yes
+      size: big    
+    - theme: brand
+      text: 后端仓库
+      link: https://gitee.com/tyopen/zenchynadmin
 
 features:
   - icon: 🎈
