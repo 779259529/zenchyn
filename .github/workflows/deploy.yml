@@ -31,7 +31,7 @@ jobs:
       - name: 'notify vercel'
         uses: 'vercel/repository-dispatch/actions/status@v1'
         with:
-          name: Vercel - zenchyn1: lint
+          name: Vercel - zenchyn1: ec.lint
       - name: Checkout
         uses: actions/checkout@v4
         with:
