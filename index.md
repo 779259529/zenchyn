@@ -11,12 +11,12 @@ hero:
     alt: zenchyn
   actions:
     - theme: brand
-      text: 获取源码
-      link: /zenchyn
+      text: 快速开始
+      link: /start
       size: big    
     - theme: alt
-      text: 联系作者
-      link: "http://wpa.qq.com/msgrd?v=3&uin=779259529&site=qq&menu=yes"
+      text: 赞助我们
+      link: /sponsor
 
 features:
   - icon: 🎈
@@ -31,25 +31,7 @@ features:
     title: 后台分布式
     details: 分布式后台，数据处理、后台管理、文件管理操作全部分布式操作
     linkText: 查看详情
-  - icon: 🪐
-    title: 自定义前端
-    details: APP超强自定义化，模块自定义、模块背景、各种功能开关、样式选择
-    linkText: 查看详情
-  - icon: 🌟
-    title: 授权专属折扣
-    details: 授权用户可无限制享受提供的LOGO和图标专属设计优惠折扣服务
-    linkText: 查看详情
-  - icon: 🎖️
-    title: 官方代理
-    details: 授权用户即可获得授权售卖代理权限，最高代理权限免费赠送
-    linkText: 查看详情
 ---
-
-## 🎉 致谢
-
-**禅境系统** **英文名** ZenChyn，原名 FreePlus Max，是 FreePlus 的授权付费版本。FreePlus 开源发布以来受到很多人的喜欢，下载超过 2W+，当然一路走来并不荣容易，为什么发布付费版本，一是有部分使用者的需求，二是因为这个开源的有很多人贩卖，并且冒充我的名义贩卖，导致很多人上当受骗，而且上当受骗后又来我这骂我，还有开源可能侵犯到别的人的利益，总之黑我的人很多，感谢大家的信任和支持，三是因为我之前全部是开源的东西，免费的服务，所以导致某些群体本来一直找我免费服务，修改，操作等等，然后突然有一次不给他服务了就挨骂了，就到处抹黑了。
-
-总而言之，感谢各位支持者的一路同行，我们会努力提升系统的可玩性程度，同时也让系统变得高效轻便。
 
 ## 🤝 联系我们
 

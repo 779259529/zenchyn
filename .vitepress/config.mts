@@ -29,28 +29,83 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '介绍', link: '/zenchyn' },
-      { text: '特别鸣谢', link: '/sponsor' },
-      { text: '接口文档', link: 'https://doc.zenchyn.com/' },
+      {
+        text: '指南',
+        items: [
+          { text: '介绍', link: '/zenchyn' },
+          { text: '快速开始', link: '/start' },
+          { text: '更新日志', link: '/download' },
+          { text: '接口文档', link: 'https://doc.zenchyn.com/' },
+          { text: '常见问题', link: '/faq' }
+        ]
+      },
+      { text: '🥤一杯咖啡', link: '/thanks' },
       { text: '官方论坛', link: 'https://bbs.zenchyn.com/' }
     ],
     footer: {
       message: '<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">鄂ICP备2022006206号</a>',
       copyright: 'Copyright © 2025-云程'
     },
-    // sidebar: [
-    //   {
-    //     text: '案例',
-    //     items: [
-    //       { text: 'MD案例', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    sidebar: {
+      '/zenchyn': [
+        {
+          items: [
+            { text: '介绍', link: '/zenchyn' },
+            { text: '快速开始', link: '/start' },
+            { text: '更新日志', link: '/download' },
+            { text: '常见问题', link: '/faq' },
+          ]
+        }
+      ],
+      '/start': [
+        {
+          items: [
+            { text: '介绍', link: '/zenchyn' },
+            { text: '快速开始', link: '/start' },
+            { text: '更新日志', link: '/download' },
+            { text: '常见问题', link: '/faq' },
+          ]
+        }
+      ],
+      '/download': [
+        {
+          items: [
+            { text: '介绍', link: '/zenchyn' },
+            { text: '快速开始', link: '/start' },
+            { text: '更新日志', link: '/download' },
+            { text: '常见问题', link: '/faq' },
+          ]
+        }
+      ],
+      '/faq': [
+        {
+          items: [
+            { text: '介绍', link: '/zenchyn' },
+            { text: '快速开始', link: '/start' },
+            { text: '更新日志', link: '/download' },
+            { text: '常见问题', link: '/faq' },
+          ]
+        }
+      ],
+      '/thanks': [
+        {
+          text: '🥤一杯咖啡',
+          items: [
+            { text: '榜上有名', link: '/thanks' },
+            { text: '成为赞助者', link: '/sponsor' },
+          ]
+        }
+      ],
+      '/sponsor': [
+        {
+          text: '🥤一杯咖啡',
+          items: [
+            { text: '榜上有名', link: '/thanks' },
+            { text: '成为赞助者', link: '/sponsor' },
+          ]
+        }
+      ]
+    },
     search: {
       provider: 'local'
     }
